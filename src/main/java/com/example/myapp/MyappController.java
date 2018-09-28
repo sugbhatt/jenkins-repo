@@ -13,7 +13,7 @@ public class MyappController {
 
     @RequestMapping("/")
     public String greeting() throws UnknownHostException{
-        return "Hello boot! Date: " + new SimpleDateFormat("yyyy-MM-dd:HH.mm.ss").format(new Date()) + " from Host: " + InetAddress.getLocalHost().getHostName(); 
+        return "Hello jenkins! Date: " + new SimpleDateFormat("yyyy-MM-dd:HH.mm.ss").format(new Date()) + " from Host: " + InetAddress.getLocalHost().getHostName(); 
     }
   
 }
